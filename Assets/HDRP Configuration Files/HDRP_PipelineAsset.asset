@@ -17,8 +17,8 @@ MonoBehaviour:
     supportSSR: 0
     supportSSRTransparent: 0
     supportSSAO: 1
-    supportSSGI: 1
-    supportSubsurfaceScattering: 1
+    supportSSGI: 0
+    supportSubsurfaceScattering: 0
     sssSampleBudget:
       m_Values: 140000002800000050000000
       m_SchemaId:
@@ -35,7 +35,7 @@ MonoBehaviour:
     customBufferFormat: 8
     supportedLitShaderMode: 2
     planarReflectionResolution:
-      m_Values: 000100000004000000080000
+      m_Values: 000100000002000000040000
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 1
@@ -44,7 +44,7 @@ MonoBehaviour:
     decalNormalBufferHP: 0
     msaaSampleCount: 1
     supportMotionVectors: 1
-    supportRuntimeAOVAPI: 0
+    supportRuntimeAOVAPI: 1
     supportDitheringCrossFade: 1
     supportTerrainHole: 0
     supportProbeVolume: 0
@@ -79,7 +79,7 @@ MonoBehaviour:
     hdShadowInitParams:
       maxShadowRequests: 128
       directionalShadowsDepthBits: 32
-      shadowFilteringQuality: 1
+      shadowFilteringQuality: 2
       punctualLightShadowAtlas:
         shadowAtlasResolution: 4096
         shadowAtlasDepthBits: 32
